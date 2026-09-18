@@ -1,0 +1,46 @@
+{
+  "architectures": [
+    "BitForImageClassification"
+  ],
+  "conv_layer": "std_conv",
+  "depths": [
+    3,
+    4,
+    6,
+    3
+  ],
+  "drop_path_rate": 0.0,
+  "dtype": "float32",
+  "embedding_dynamic_padding": false,
+  "embedding_size": 64,
+  "global_padding": null,
+  "hidden_act": "relu",
+  "hidden_sizes": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "layer_type": "preactivation",
+  "model_type": "bit",
+  "num_channels": 3,
+  "num_groups": 32,
+  "out_features": [
+    "stage4"
+  ],
+  "out_indices": [
+    4
+  ],
+  "output_stride": 32,
+  "problem_type": "single_label_classification",
+  "stage_names": [
+    "stem",
+    "stage1",
+    "stage2",
+    "stage3",
+    "stage4"
+  ],
+  "transformers_version": "5.16.1",
+  "use_cache": false,
+  "width_factor": 1
+}
